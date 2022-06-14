@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ /* body {
+    background-image: linear-gradient(to left, blue, purple, green, red);
+  }*/
+  #wrapper {
+    width:  100%;
+  }
+
+  #logo {
+    width: 60%;
+    background-color: blueviolet;
+    height:  50px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+  }
+
+  #banner {
+    width: 80%;
+    background-image: url('https://rubicmarketing.com/wp-content/uploads/2021/07/banner-quang-cao-facebook-3.jpg');
+    height:  1350px;
+    background-repeat: repeat-x;
+  }
+
+  .item {
+    width:  33%;
+  }
+
+  .item:nth-child(odd) {
+    background-color: orangered;
+  }
+
+  #item {
+    /*border-radius: 10px 0px 20px 5px;*/
+    height:  50px;
+    padding:  40px;
+    margin-bottom: 40px;
+  }
+
+  .item:nth-child(even)
+  {
+    background-color: blueviolet;
+  }
+
+  * {
+    border: 1px gray solid;
+  }
+
+  .toolbars {
+    display: flex;
+  }
+
+  .gadgets {
+    width:  40%;
+    text-align: right;
+    text-align: center;
+
+  }
+
+  .fa {
+    border:  none;
+    font-size: 30px;
+    line-height: 50px;
+    color: blue;
+  }
+
+#toolbar-content {
+  width: 200px;
+  height:  300px;
+  position: absolute;
+  display: none;
+  overflow: hidden;
+}
+
+.fa:hover ~ #toolbar-content {
+    display: block;
+    overflow: visible;
+  }
+  
+.fa:hover {
+  color:  red;
+  box-shadow: 0px 2px;
+} 
+
+a {
+  font-size:  18px;
+  font-weight: bolder;
+  color:  white;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color:  black;
+}
+
+li:before {
+  
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="wrapper">
+  <div id="header">
+   <div class="toolbars">
+     <div id="logo">LOGO HERE</div>
+     <div class="gadgets">
+        <span><i class="fa fa-address-book"></i></span>
+        <span><i class="fa fa-address-book"></i></span>
+        <span><i class="fa fa-address-book"></i></span>
+        <div id="toolbar-content">
+        <p>This is the content when fa is hovered</p>
+      </div>
+      </div>
+      
+  </div> 
+</div>
+  <div style="clear:both;"></div>
+
+  <div id="menu"> MENU HERE
+    <div class="item" id="item">
+      <p style="text-align: left; text-indent: 30px; text-transform: capitalize; font-weight: bolder; font-size: 25px; text-orientation: use-glyph-orientation; writing-mode: vertical-lr;">one two</p>
+    </div>
+    <div class="item grey_bgr">
+      <span><i class="fa fa-adjust" style="font-size: 30px;"></i></span>ITEM HERE
+    </div>
+    <div class="item"><span><i class="fa fa-address-book" style="font-size: 30px;"></i></span>ITEM HERE</div>
+    <div class="item grey_bgr"><span><i class="fa fa-angellist" style="font-size: 30px;"></i></span>ITEM HERE</div>
+    <div class="item"><span><i class="fa fa-address-book" style="font-size: 30px;"></i></span>ITEM HERE</div>
+    <div class="item grey_bgr"><span><i class="fa fa-solid fa-heart" style="font-size: 30px;"></i></span>ITEM HERE</div>
+  </div>
+  <div class="item">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+  <div style="clear:both;"></div>
+
+   <div id="main_content">
+  </div>
+  <div style="clear:both;"></div>
+
+   <div id="footer">
+  </div>
+  <div style="clear:both;"></div>
+</div>
+
+</body>
+</html>
+
+
