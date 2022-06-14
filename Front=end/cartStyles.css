@@ -98,17 +98,54 @@ div.bill h1 {
 }
 
 section div.bill {
-    width: 30%;
+    width: 20%;
+    min-width: 250px;
+    height:  200px;
+    padding:  15px;
     min-width: 200px;
+    margin:  0px 50px;
+    border:  2px solid red;
 }
+
+td.td {
+    width: 50%;
+    min-width: 100px;
+}
+div.bill table {
+    margin-left:  10px;
+}
+div.bill table tr td{
+    border-bottom: 2px solid dimgray;
+}
+div.bill-details table{
+    width: 100%;
+    float:  right;
+}
+
+table tr#first-row {
+    background-color: red;
+    color:  white;
+    height:  50px;
+}
+
+table tr#first-row tr {
+    border: 1px solid red;
+    color:  white;
+    padding:  2px;
+}
+
 
 div.bill table tr {
     text-align: center;
     width: 100%;
     height: 40px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid black;
 }
 
+div.bill-details {
+    width: 65%;
+    min-width: 900px;
+}
 td.product-detail {
     display: flex;
     min-width: 300px;
